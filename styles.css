@@ -65,10 +65,47 @@
     transition: 0.25s ease;
 }
 /* Profile Card 2 */
+#whiteBG{
+    width: 450px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+}
 #profileCard2{
+    width: 450px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background:linear-gradient(white,rgb(131, 247, 243));
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.30);
     
 }
-
+#profileCard2 img{
+    margin-top:10%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#profileCard2 h1{
+    display: flex;
+    width: 450px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#profileCard2:hover{
+    box-shadow: 0px 0px 20px 2px black;
+    transition: 0.25s ease;
+}
 /* Profile Card 3 */
 #profileCard3{
     
