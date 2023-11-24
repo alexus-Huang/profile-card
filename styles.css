@@ -57,7 +57,6 @@
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    fill: #D9D9D9;
     margin: 20px;
 }
 #profileCard1:hover{
@@ -79,7 +78,7 @@
     border-radius: 10px;
     background:linear-gradient(white,rgb(131, 247, 243));
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.30);
-    
+    transition: 0.25s ease;
 }
 #profileCard2 img{
     margin-top:10%;
@@ -108,9 +107,38 @@
 }
 /* Profile Card 3 */
 #profileCard3{
-    
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4FFF4 0%, #CFFFC3 69.79%);
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.30);
+    transition: 0.25s ease;
 }
-
+#profileCard3 h1{
+    display: flex;
+    width: 450px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#profileCard3 img{
+    margin-top:5%;
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+}
+#profileCard3:hover{
+    box-shadow: 0px 0px 20px 2px black;
+    transition: 0.25s ease;
+}
 /* Description Class */
 .description{
     margin: 0 auto;
