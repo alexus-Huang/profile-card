@@ -4,7 +4,9 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+body{
+    background-color: rgba(228, 228, 228, 0.694);
+}
 /* Main Container */
 #mainContainer{
     margin: 0;
@@ -81,6 +83,7 @@
     transition: 0.25s ease;
 }
 #profileCard2 img{
+    border:2px solid black;
     margin-top:10%;
     width: 200px;
     height: 200px;
